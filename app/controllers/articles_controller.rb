@@ -1,4 +1,9 @@
 class ArticlesController < ApplicationController # :nodoc:
+
+  def show;
+    @article = Article.find(params[:id])
+  end
+
   def new; end
 
   def create
