@@ -1,5 +1,5 @@
 class ArticlesController < ApplicationController # :nodoc:
-  before_action :authenticate_user!
+  before_action :authenticate_user!, only: %i[new create edit update]
 
   def index
     @articles = Article.all
