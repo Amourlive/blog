@@ -41,6 +41,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'shoulda-matchers'
   gem 'selenium-webdriver'
+  gem 'factory_girl_rails'
 end
 
 group :development do
