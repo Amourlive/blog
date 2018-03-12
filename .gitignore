@@ -145,3 +145,5 @@ bower.json
 
 # Ignore node_modules
 node_modules/
+.keep
+Будет удалено .idea/inspectionProfiles/
